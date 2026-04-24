@@ -7,7 +7,7 @@ const char* ssid = "TU_2G_WIFI";
 const char* password = "TU_2G_PÂSSWORD";
 
 // --------- MQTT ----------
-const char* mqtt_server = "TU_IP"; // en cmd con ipconfig oberva ipv4
+const char* mqtt_server = "TU_IP"; // en cmd con ipconfig observa ipv4
 const int mqtt_port = 1883;
 
 const char* topic_temp = "ESP32/Temperatura/Salon";
