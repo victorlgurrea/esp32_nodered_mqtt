@@ -3,11 +3,11 @@
 #include <DHT.h>
 
 // --------- WiFi ----------
-const char* ssid = "AvanzaFibra_zq3G";
-const char* password = "8wDFk4vW";
+const char* ssid = "TU_RED_2G";
+const char* password = "PASSWORD_RED_2G";
 
 // --------- MQTT ----------
-const char* mqtt_server = "192.168.18.146";
+const char* mqtt_server = "TU IP"; // la que te sale en ipconfig
 const int mqtt_port = 1883;
 
 const char* topic_temp = "ESP32/Temperatura/Salon";
